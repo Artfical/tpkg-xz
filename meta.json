@@ -1,0 +1,25 @@
+{
+ "name": "xz",
+ "version": "5.8.4",
+ "license": "0BSD; GPL-2.0+ (tools); LGPL-2.1+",
+ "homepage": "https://tukaani.org/xz/",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "xz-5.8.4.tar.xz"
+ ],
+ "desc": "XZ Utils 5.8.4: xz, unxz, xzcat (compress and decompress .xz and .lzma; 64-bit tOS)",
+ "file": "xz-5.8.4.tpkg",
+ "size": 133008,
+ "sha256": "069e13bbf8ce95a2cc2d0d3d7629de0e83c2c7b0f5cd61593a914a50a2a2fce7",
+ "unpacked": 265096,
+ "min_build": 612,
+ "depends": [],
+ "commands": {
+  "xz": "bin/xz",
+  "unxz": "bin/xz -d",
+  "xzcat": "bin/xz -dc"
+ }
+}

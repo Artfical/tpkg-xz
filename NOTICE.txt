@@ -1,0 +1,5 @@
+XZ Utils 5.8.4 for tOS
+=======================
+
+bin/xz is xz 5.8.4 built from the official release tarball (https://github.com/tukaani-project/xz/releases/tag/v5.8.4), unmodified, with liblzma linked in and threads enabled. unxz and xzcat are xz run as xz -d and xz -dc. License: liblzma is public domain (0BSD); the tools are GPL-2.0-or-later (LICENSE has the overview; the complete text of each licence is in the source). The complete source is xz-5.8.4.tar.xz, beside this package on update.artfical.com.
+glibc: this program is linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.
